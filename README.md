@@ -108,7 +108,7 @@ Microsoft Windows [Version 10.0.18362.959]
 C:\Users\AkitotheExiled>
 
 ```
-2. Now lets navigate to our directory where we downloaded the script.  In the command prompt, type, **cd desktop/RSSReply-master** Now your command prompt should look like
+2. Now lets navigate to our directory where we downloaded the script.  In the command prompt, type, **cd desktop/SourceRequestBot-master** Now your command prompt should look like
 ```
 C:\Users\AkitotheExiled\Desktop\SourceRequestBot-master>
 ```
