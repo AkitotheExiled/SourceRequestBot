@@ -85,7 +85,6 @@ USER =user123
 PASSWORD=myultrasecretpassword
 CLIENT_ID=ddMaksjJsuyeb
 SECRET=daklfanlfkanl392r29neorfjs
-RSSURL=https://n4g.com/rss/news?channel=next-gen&sort=latest
 DELAY=60
 SUBREDDIT=mysubredditexample
 FLAIR=Fan Art
