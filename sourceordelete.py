@@ -17,7 +17,7 @@ class SourceorDelete_Bot(RedditBaseClass):
 
     def __init__(self):
         super().__init__()
-        self.user_agent = "PC:FeedbackTrackerBot:V1.5 by ScoopJr"
+        self.user_agent = "PC:SourceRequestBot:V1.0 by ScoopJr"
         print('Starting up...', self.user_agent)
         self.reddit = praw.Reddit(client_id=self.client,
                                   client_secret=self.secret,
@@ -120,7 +120,7 @@ class SourceorDelete_Bot(RedditBaseClass):
     def main(self):
         subreddit = self.reddit.subreddit(self.subreddit)
         while True:
-            for post in subreddit.stream.submissions(pause_after=-1):
+            for post in subreddit.stream.submissions(skip_existing=True, pause_after=-1):
                 if post is None:
                     break
                 print(post.title)
