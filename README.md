@@ -120,7 +120,7 @@ C:\Users\AkitotheExiled\Desktop\SourceRequestBot-master>python pip install requi
 4. Time to run our script!  In the command prompt, type, **python sourceordelete.py**.  Your command prompt should match the below text
 
 ```
-C:\Users\AkitotheExiled\Desktop\SourceRequestBot-master>python parsereplybot.py
+C:\Users\AkitotheExiled\Desktop\SourceRequestBot-master>python sourceordelete.py
 ```
 5. Press the enter key on your keyboard.  The script should run now.
 
