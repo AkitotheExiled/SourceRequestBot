@@ -1,9 +1,11 @@
 * [Getting started](#installing-script)
     * [Installing Python](#installing-python)
-    * [Installing requirements.txt](#installing-requirements.txt)
-    * [Setting your config](#setting-up-config.ini)
+    * [Installing requirements](#installing-requirements)
+    * [Setting your config](#setting-your-config)
         * [username and password](#username-and-password)
         * [secret and client_id](#secret-and-client_id)
+        * [delay](#delay)
+        * [subreddit](#subreddit)
         * [flair](#flair)
         * [wait timer](#recheck_wait)
         * [removal reason](#removal_reason)
@@ -26,7 +28,7 @@ Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 21:26:53) [MSC v.1916 32 bit (Inte
 Type "help", "copyright", "credits" or "license" for more information.
 ```
 - - - -
-## Installing requirements.txt
+## Installing requirements
 * Open up the command prompt.  You may type cmd or command prompt in the windows search bar.  Your command prompt should look like below
 ```
 Microsoft Windows [Version 10.0.18362.959]
@@ -45,7 +47,7 @@ C:\Users\AkitotheExiled\Desktop\SourceRequestBot-master>
 C:\Users\AkitotheExiled\Desktop\SourceRequestBot-master>python pip install requirements.txt
 ```
 - - - -
-## Setting up config.ini
+## Setting your config
 ### username and password
 * Enter your username and password for the account you will be using for the program
 ```
@@ -79,31 +81,31 @@ SECRET= daklfanlfkanl392r29neorfjs
 CLIENT_ID= ddMaksjJsuyeb
 ```
 
-**Delay**
+### Delay
 * The time in seconds between full runs.  One full run is a full pass through your subreddit.
 ```
 DELAY = 60
 ```
 
-**Subreddit**
+### Subreddit
 * The subreddit you will be running the program in!
 ```
 mysubredditexample
 ```
 
-**Flair**
+### Flair
 * The flair the bot will search for when looking for posts that need sources
 ```
 FLAIR= Fan Art
 ```
 
-**Recheck_wait**
+### Recheck_wait
 * The time in minutes to wait before checking up on the post.
 ```
 RECHECK_WAIT= 10
 ```
 
-**Removal_reason**
+### Removal_reason
 * The reason added to the post when it gets removed for OP not providing a source.
 ```
 REMOVAL_REASON= Your post was removed because you failed to provide a source!
